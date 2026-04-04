@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.dexrn.conversiondebugger.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MinecraftMixin",
+    "PlayerMixin",
+    "EntityMixin",
+    "ChunkCacheMixin"
+  ],
+  "client": [
+    "ClientPlayerEntityMixin",
+    "IngameGuiMixin",
+    "TitleScreenMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixinextras": {
+    "minVersion": "0.5.3"
+  }
+}
