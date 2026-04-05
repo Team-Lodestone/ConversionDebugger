@@ -1,15 +1,11 @@
-package me.dexrn.conversiondebugger.mixin;
+package me.dexrn.conversiondebugger.mixin.net.minecraft.client.gui;
 
 import com.llamalad7.mixinextras.expression.Definition;
 import com.llamalad7.mixinextras.expression.Expression;
 import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
-import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
-import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
 import me.dexrn.conversiondebugger.screen.DebugScreen;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.ChatMessage;
 import net.minecraft.client.gui.GameGui;
-import net.minecraft.client.options.GameOptions;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
@@ -17,10 +13,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import java.util.List;
-
 @Mixin(GameGui.class)
-public class IngameGuiMixin {
+public class GuiMixin {
 	@Shadow
 	private Minecraft minecraft;
 

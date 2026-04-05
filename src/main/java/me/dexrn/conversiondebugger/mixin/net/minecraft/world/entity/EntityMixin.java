@@ -1,4 +1,4 @@
-package me.dexrn.conversiondebugger.mixin;
+package me.dexrn.conversiondebugger.mixin.net.minecraft.world.entity;
 
 import me.dexrn.conversiondebugger.itf.PlayerDuckInterface;
 import net.minecraft.client.entity.mob.player.ClientPlayerEntity;

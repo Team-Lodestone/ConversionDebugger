@@ -1,11 +1,7 @@
-package me.dexrn.conversiondebugger.mixin;
+package me.dexrn.conversiondebugger.mixin.net.minecraft.client;
 
-import com.llamalad7.mixinextras.expression.Definition;
-import com.llamalad7.mixinextras.expression.Expression;
-import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import me.dexrn.conversiondebugger.ConversionDebugger;
 import me.dexrn.conversiondebugger.itf.PlayerDuckInterface;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.mob.player.ClientPlayerEntity;

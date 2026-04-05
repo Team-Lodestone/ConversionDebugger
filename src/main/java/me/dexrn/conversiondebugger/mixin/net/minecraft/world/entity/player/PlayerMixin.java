@@ -1,11 +1,9 @@
-package me.dexrn.conversiondebugger.mixin;
+package me.dexrn.conversiondebugger.mixin.net.minecraft.world.entity.player;
 
 import me.dexrn.conversiondebugger.itf.PlayerDuckInterface;
 import net.minecraft.entity.mob.player.PlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
 
 @Mixin(PlayerEntity.class)
 public class PlayerMixin implements PlayerDuckInterface {

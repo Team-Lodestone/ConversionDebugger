@@ -1,4 +1,4 @@
-package me.dexrn.conversiondebugger.mixin;
+package me.dexrn.conversiondebugger.mixin.net.minecraft.client.title;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.widget.ButtonWidget;

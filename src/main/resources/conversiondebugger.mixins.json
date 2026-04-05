@@ -4,15 +4,15 @@
   "package": "me.dexrn.conversiondebugger.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MinecraftMixin",
-    "PlayerMixin",
-    "EntityMixin",
-    "ChunkCacheMixin"
+    "net.minecraft.client.MinecraftMixin",
+    "net.minecraft.world.entity.player.PlayerMixin",
+    "net.minecraft.world.entity.EntityMixin",
+    "net.minecraft.world.level.chunk.ChunkCacheMixin"
   ],
   "client": [
-    "ClientPlayerEntityMixin",
-    "IngameGuiMixin",
-    "TitleScreenMixin"
+    "net.minecraft.client.player.LocalPlayerMixin",
+    "net.minecraft.client.gui.GuiMixin",
+    "net.minecraft.client.title.TitleScreenMixin"
   ],
   "server": [
   ],
